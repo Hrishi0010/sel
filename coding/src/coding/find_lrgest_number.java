@@ -11,7 +11,7 @@ public class find_lrgest_number {
 		int b = sc.nextInt();
 		System.out.println("plese enter second number");
 		int c = sc.nextInt();
-		System.out.println("plese enter second number");
+		System.out.println("plese enter third number");
 		int d = sc.nextInt();
 
 		if (b > c & b > d) {

@@ -16,8 +16,8 @@ public class plindrome {
 		
 		while (num!=0) {
 			rev=rev*10+num%10;//2  
-			num=num/10;//2343
-		}
+			num=num/10;//2343		
+			}
 		
 		if (org_num==rev) {
 			System.out.println(org_num+ " it is  plindrome");
@@ -27,4 +27,6 @@ public class plindrome {
 		}
 	}
 
+
 }
+
