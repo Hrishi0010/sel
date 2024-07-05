@@ -7,9 +7,9 @@ public class swapping_numbers {
 		int a=10;
 		int b=20;
 		
-		int c=a;
-		a=b;
-		b=c;
+		a=a+b;
+		b=a-b;
+		a=a-b;
 		
 		System.out.println("swapping of numbers" +a+ "---------" +b);
 
