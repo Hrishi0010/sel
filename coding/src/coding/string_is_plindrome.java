@@ -14,12 +14,15 @@ public class string_is_plindrome {
 		for (int i = str.length() - 1; i >= 0; i--) {
 			rev = rev + str.charAt(i);
 		}
+		String replce=rev.replaceAll(" ", "_");
+				System.out.println(replce);
 		if (str.equals(rev)) {
-			System.out.println(str + "it is plindrome");
+			System.out.println(str + " it is plindrome");
 
 		} else {
-			System.out.println(str + "not plindrome");
+			System.out.println(str + " not plindrome");
 		}
 
 	}
+
 }

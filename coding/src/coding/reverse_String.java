@@ -11,8 +11,9 @@ public class reverse_String {
 		for (int i = len; i > 0; i--) {
 			//rev = rev + s.charAt(i-1);
 
+		char rev =s.charAt(i-1);
+		System.out.println(rev);
 		
-		System.out.println(s.charAt(i-1));
 		}
 	}
 
